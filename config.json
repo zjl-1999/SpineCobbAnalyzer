@@ -1,0 +1,13 @@
+{
+  "_comment": "SpineCobbAnalyzer main configuration. Placeholders ${NAME} are resolved at startup by config.py.",
+  "_docs": "Actual secrets go in .env (gitignored, never committed).",
+  "ai": {
+    "_docs": "API keys are injected from environment variables set by .env",
+    "api_keys": {
+      "gemini": "${GEMINI_API_KEY}",
+      "siliconflow": "${SILICONFLOW_API_KEY}",
+      "claude": "${CLAUDE_API_KEY}",
+      "openai": "${OPENAI_API_KEY}"
+    }
+  }
+}

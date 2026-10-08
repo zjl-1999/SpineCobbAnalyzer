@@ -1,0 +1,12 @@
+# Spine COBB Analyzer - Python Dependencies
+# Install all at once: pip install -r requirements.txt
+# For faster download in China: pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+opencv-python==4.10.0.84
+numpy==2.2.6
+scipy==1.16.3
+matplotlib==3.9.2
+pillow==12.2.0
+pandas==2.3.3
+openpyxl==3.1.5
+python-docx==1.2.0
